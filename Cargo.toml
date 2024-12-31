@@ -17,4 +17,6 @@ publish = false
 hpx-sys = { path = "hpx-sys", version = "0.1.0" }
 
 [workspace]
-members = [ "hpx-examples"]
+members = ["examples/*"]
+default-members = [""]
+resolver = "2"
